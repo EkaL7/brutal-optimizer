@@ -1,0 +1,5 @@
+#include "src/resource.h"
+
+IDI_APP_ICON ICON "assets\\kittycore-icon.ico"
+IDB_LOGIN_LOGO RCDATA "final.png"
+IDR_INIT_SCRIPT RCDATA "Init.bat"

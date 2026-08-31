@@ -1,0 +1,60 @@
+# Build artifacts
+build/
+Debug/
+Release/
+x64/
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.lib
+*.exp
+*.res
+*.log
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.tlog
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Environment and secrets
+.env
+.env.*
+*.env
+
+# Images and binaries
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.bmp
+*.svg
+
+# Dear ImGui submodule (external library)
+imgui/
+
+# Artifacts / screenshots
+artifacts/
+
+# Discloud logs
+discloud/logs/
+
+# Misc
+*.bak
+*.tmp
+*.swp
+Thumbs.db
+Desktop.ini

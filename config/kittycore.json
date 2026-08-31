@@ -1,0 +1,6 @@
+{
+  "app_version": "1.0.0-beta",
+  "auth_endpoint": "https://YOUR_BACKEND_HOST/verify",
+  "discord_invite_url": "https://discord.gg/YOUR_INVITE_CODE",
+  "guild_id": "YOUR_GUILD_ID"
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{8693A91A-5947-4D9E-8EFA-D7F6134E0B88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{4F842F48-FD39-4C26-9468-1DCD298EC7F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\Backends">
+      <UniqueIdentifier>{8E1F0CA8-3B35-41A0-924B-35240895E0BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{217D28F7-F726-45F4-9B5D-A67FA38C5B5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend">
+      <UniqueIdentifier>{D879C207-44DB-49CF-91B1-0B7E5B6762C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{1A2E3A6E-893B-4D7A-92C4-2E7AC60B8C18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{E8C33A5D-A77C-42E4-B15B-B7C3D19F875C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>ImGui\Backends</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_win32.cpp">
+      <Filter>ImGui\Backends</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KittyCore.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\backends\imgui_impl_dx11.h">
+      <Filter>ImGui\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\backends\imgui_impl_win32.h">
+      <Filter>ImGui\Backends</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\kittycore-icon.ico">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="assets\kittycore-icon.png">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="assets\kittycore-logo.png">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="assets\kittycore-logo-source.png">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="config\kittycore.json">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="final.png">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="gentty.png">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="gentty_clean.png">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="Init.bat">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="scripts\KittyCoreOptimize.ps1">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="backend\cloudflare-worker.js">
+      <Filter>Backend</Filter>
+    </None>
+    <None Include="docs\DISCORD_BACKEND.md">
+      <Filter>Backend</Filter>
+    </None>
+  </ItemGroup>
+</Project>

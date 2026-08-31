@@ -1,0 +1,14 @@
+{
+  "name": "kittycore-discord-backend",
+  "version": "1.0.0-beta",
+  "private": true,
+  "description": "KittyCore Discord auth and webhook backend",
+  "main": "backend/local-auth-server.js",
+  "scripts": {
+    "start": "node backend/local-auth-server.js",
+    "check": "node --check backend/local-auth-server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

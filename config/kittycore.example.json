@@ -1,0 +1,6 @@
+{
+  "app_version": "1.0.0-beta",
+  "auth_endpoint": "http://127.0.0.1:8787/verify",
+  "discord_invite_url": "https://discord.gg/YOUR_INVITE_CODE",
+  "guild_id": "YOUR_GUILD_ID"
+}
